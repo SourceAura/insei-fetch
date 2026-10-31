@@ -40,7 +40,7 @@ manifest = {
     "schema": 1,
     "id": "insei-fetch",
     "category": "fastfetch",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "destination": "ryoku/fastfetch/insei-fetch",
     "files": files,
 }

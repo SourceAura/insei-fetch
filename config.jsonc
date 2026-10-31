@@ -81,7 +81,8 @@
     },
     {
       "key": "PKGS",
-      "type": "packages"
+      "type": "command",
+      "text": "printf \"%s pacman · %s flatpak\" \"$(pacman -Qq | wc -l)\" \"$(flatpak list 2>/dev/null | wc -l)\""
     },
     "break",
     {
