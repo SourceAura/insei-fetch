@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Rebuild the RyoStore manifest for Jurai Fastfetch by hashing the
+"""Rebuild the RyoStore manifest for Insei Fetch by hashing the
 product folder.
 
 Usage: build-manifest.py <product-dir>
 
 The store folder for a fastfetch preset is flat:
 
-    fastfetch/insei-fastfetch/
+    fastfetch/insei-fetch/
         config.jsonc, emblem.png   the preset and its face
         LICENSE, PROVENANCE.txt
         preview.webp                the shelf picture (not installed)
@@ -38,10 +38,10 @@ for name in sorted(os.listdir(root)):
     })
 manifest = {
     "schema": 1,
-    "id": "insei-fastfetch",
+    "id": "insei-fetch",
     "category": "fastfetch",
-    "version": "1.0.2",
-    "destination": "ryoku/fastfetch/insei-fastfetch",
+    "version": "1.0.3",
+    "destination": "ryoku/fastfetch/insei-fetch",
     "files": files,
 }
 out = json.dumps(manifest, indent=2, ensure_ascii=False) + "\n"

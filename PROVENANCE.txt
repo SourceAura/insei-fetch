@@ -1,4 +1,4 @@
-Insei-fastfetch: provenance
+Insei-fetch: provenance
 
 Designed by 0xSrcAura in 2026, first for the Jurai suite;
 it is Insei's now, kept and updated as part of her. The

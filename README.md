@@ -1,4 +1,4 @@
-# Insei-fastfetch
+# Insei-fetch
 
 Part of Insei, the house she keeps. A fastfetch preset for
 Ryoku, and her visiting card: this is the face the machine
@@ -21,7 +21,7 @@ line reads blank and the rest of the card is untouched.
 First drawn for the Jurai suite in 2026. It is Insei's now:
 kept with her, updated from her tree, as part of her.
 
-Install (RyoStore): the `insei-fastfetch` preset. The
+Install (RyoStore): the `insei-fetch` preset. The
 config's logo reads the emblem from the installed view, so
 the preset carries its face with it. Remove the preset and
 the stock fastfetch returns untouched.
